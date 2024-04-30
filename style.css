@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 20%;
+    height: 60vh;
+    background-color: rgb(251, 255, 254);
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 4rem;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+img{
+    width: 180px;
+    height: 30vh;
+    align-self: center;
+    /* filter: grayscale(1); */
+    border-radius: 50%;
+}
+.name{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    margin: 1rem 1rem 0;
+    font-family: "Source Code Pro", monospace;
+}
+
+.JobTitle{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 12px;
+    margin: 0 1rem;
+    font-family: "Source Code Pro", monospace;
+}
+.description{
+    background-color: rgba(201, 33, 33, 0.63);
+    color: whitesmoke;
+    height: 4rem;
+    text-align: left;
+    padding: 10px;
+    margin: 1rem 0 0;
+
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+
+}
