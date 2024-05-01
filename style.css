@@ -10,7 +10,7 @@ body{
 
 .container{
     width: 20%;
-    height: 60vh;
+    height: auto;
     background-color: rgb(251, 255, 254);
     border: 1px solid black;
     border-radius: 5px;
@@ -50,7 +50,7 @@ img{
 .description{
     background-color: rgba(201, 33, 33, 0.63);
     color: whitesmoke;
-    height: 4rem;
+    height: 4.5rem;
     text-align: left;
     padding: 10px;
     margin: 1rem 0 0;
@@ -60,4 +60,20 @@ img{
   font-style: normal;
   font-size: 12px;
 
+}
+@media screen and (Max-Width: 667px){
+    .container{
+        width: 70%;
+        height: 60vh;
+        background-color: rgb(251, 255, 254);
+        border: 1px solid black;
+        border-radius: 5px;
+        align-self: center;
+        margin-top: 4rem;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+    
 }
